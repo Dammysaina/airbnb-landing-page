@@ -1,0 +1,10 @@
+.experience-explore {
+    display: flex;
+    justify-content: space-between;
+}
+.experience-explore-text {
+    width: 560px;
+}
+.experience-container {
+    background-color: black;
+}
