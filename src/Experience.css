@@ -4,7 +4,18 @@
 }
 .experience-explore-text {
     width: 560px;
+    color: white;
 }
 .experience-container {
     background-color: black;
+    padding: 0 70px 0 70px;
 }
+.grid h3 {
+    color: white;
+}
+.grid {
+    display:grid;
+    grid-template-columns: 50% 25% 25%;
+    grid-template-rows: 50% 50%;
+    grid-gap: 10px;
+} 

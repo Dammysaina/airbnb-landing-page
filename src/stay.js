@@ -3,7 +3,7 @@ import './Stay.css'
 
 const Stay = (props) =>{
     return(
-        <div>
+        <div className= "stay-container">
             <h2>We may be apart, but we’ll get through <br/> this together.</h2>
             <div className="picture">
                 <div className="card">

@@ -37,6 +37,6 @@
   }
 }
 .contain {
-  padding: 0 70px 0 70px;
+  /* padding: 0 70px 0 70px; */
   max-width: 100%;
 }

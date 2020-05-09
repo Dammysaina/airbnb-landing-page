@@ -1,7 +1,10 @@
+.stay-container {
+    padding: 0 70px 0 70px; 
+}
 h2 {
     color: red;
-    font-size: 15px;
-    font-weight: 200;
+    font-size: 35px;
+    font-weight: 250;
 }
 .picture {
     display: flex;
