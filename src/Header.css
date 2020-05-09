@@ -1,7 +1,6 @@
 .container {
     display: flex;
     justify-content: space-between;
-    padding: 0 70px 0 70px;
 }
 ul {
     display: flex;
@@ -10,11 +9,28 @@ ul {
     
 }
 li {
-    margin-right: 15px;
+    margin-right: 10px;
     border: 1px solid transparent;
-    border-radius: 10px;
+    border-radius: 15px;
+    padding: 10px 10px 10px 10px;
 }
 li:hover{
-    background-color: wheat;
-    padding: 10px 0px 10px 0px;
+    background-color: gray;
+   
+}
+button {
+    border: 1px solid grey;
+    border-radius: 20px;
+    background-color: white;
+    padding: 0px 20px 0px 20px;
+    font-weight: 500;
+    font-size: 15px;
+    
+}
+button:hover {
+    box-shadow: -1px 6px 15px -6px rgba(0, 0, 0, 0.4);
+}
+.logo {
+    width: 150px;
+    padding-top: 15px;
 }

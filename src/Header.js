@@ -6,7 +6,7 @@ const Header = (props) => {
     return (
         <div className="container">
             <div>
-                <img src="../images/airbnb.png"/>
+                <img className="logo" src={`/images/logo.png`}/>
             </div>
             <div>
                 <ul>
