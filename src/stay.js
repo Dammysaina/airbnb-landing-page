@@ -10,21 +10,21 @@ const Stay = (props) =>{
                     <img src={`/images/lamb.jpg`}/>
                     <div className="card-text">
                         <h3>Online Experiences</h3>
-                        <h4></h4>
+                        <h4>Unique activities we can do together, led by world of hosts.</h4>
                     </div>
                 </div>
                 <div className="card">
                     <img src={'/images/eating.jpg'}/>
                     <div className="card-text">
                         <h3>Monthly Stay</h3>
-                        <h4></h4>
+                        <h4>Make airbnb your home, for stays of a month or longer.</h4>
                     </div>
                 </div>
                 <div className="card">
                     <img src={'/images/sheep.jpg'}/>
                     <div className="card-text">
                         <h3>Frontline Stay</h3>
-                        <h4></h4>
+                        <h4>Find or provide accomodations for covid-19 responders.</h4>
                     </div>
                 </div>
             </div>

@@ -9,6 +9,7 @@
 .experience-container {
     background-color: black;
     padding: 0 70px 0 70px;
+    width: 100%;
 }
 .grid h3 {
     color: white;
@@ -19,3 +20,16 @@
     grid-template-rows: 50% 50%;
     grid-gap: 10px;
 } 
+.experience-button {
+    padding-top: 20px;
+}
+.experience-button button {
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: black;
+    padding: 7px 15px 7px 15px;
+    font-weight: 500;
+    font-size: 15px;
+    color: white;
+    
+}

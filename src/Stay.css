@@ -9,7 +9,7 @@ h2 {
 .picture {
     display: flex;
     justify-content: space-between;
-    padding-bottom: 40px;
+    padding-bottom: 35px;
 }
 /* .picture img {
     width: 400px;
@@ -20,6 +20,7 @@ h2 {
     border: 1px solid transparent;
     border-radius: 20px;
     box-shadow: -1px 10px 15px -6px rgba(0, 0, 0, 0.4);;
+    padding-bottom: 15px;
 }
 .card img {
     width: 100%;
@@ -28,11 +29,14 @@ h2 {
     border-top: 1px solid transparent;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
-    
 }
 .card-text {
     padding-left: 15px;
 }
 .card-text h2{
-    font-weight: 600;
+    font-weight: 500;
+}
+.card-text h4 {
+    font-weight: 200;
+    /* padding-bottom: 50px; */
 }
