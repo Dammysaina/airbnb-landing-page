@@ -1,0 +1,18 @@
+.info {
+    background-color: wheat;
+    padding: 50px 70px 50px 70px;
+}
+.stay {
+    font-weight: 500;
+    /* padding: 0px 70px 0px 70px; */
+}
+.info-four-list {
+    display: flex;
+    justify-content: space-between;
+}
+.info-four-list li {
+    list-style: none;
+}
+.info-four-list ul {
+    padding: 0;
+}

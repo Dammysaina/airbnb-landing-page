@@ -16,29 +16,36 @@ const Experience = (props) =>{
             </div>
             </div>
             <div className="grid">
-                <div className="card1">
+                <div className="card1 grid-text">
                 <img src= {`/images/lamb.jpg`}/>
-                <h3>Dolore excepteur deserunt qui reprehenderit ex 
-                    reprehenderit culpa irure ut ex Lorem laboris cupidatat.
-                </h3>
-                </div>
-                <div className="card2">
-                    <img src= {`/images/sheep.jpg`}/>
-                    <h3>Dolore excepteur deserunt qui reprehenderit ex 
-                    reprehenderit culpa irure ut ex Lorem laboris cupidatat.
+                <div className="grid-text">
+                    <h3>Mix secret sangria with Pedro from&nbsp;Lisbon
                     </h3>
                 </div>
-                <div className="card3">
+                </div>
+                <div className="card2 grid-text">
+                    <img src= {`/images/sheep.jpg`}/>
+                    <div className="grid-text">
+                        <h3>
+                            Stretch. Breathe. Relax. Yoga class with&nbsp;friends.
+                        </h3>
+                    </div>
+                </div>
+                <div className="card3 grid-text">
                     <img src={`/images/eating.jpg`}/>
-                    <h3>Dolore excepteur deserunt qui reprehenderit ex 
-                    reprehenderit culpa irure ut ex Lorem laboris cupidatat.
-                    </h3>
+                    <div className="grid-text">
+                        <h3>
+                            Meditate to music with Janice from&nbsp;Amsterdam
+                        </h3>
+                    </div>
                 </div>
-                <div className="card4">
+                <div className="card4 grid-text">
                     <img src= {`/images/sheep.jpg`}/>
-                    <h3>Dolore excepteur deserunt qui reprehenderit ex 
-                    reprehenderit culpa irure ut ex Lorem laboris cupidatat.
-                    </h3>
+                    <div className ="grid-text">
+                        <h3>
+                            Support African penguins by drawing with&nbsp;Jon
+                        </h3>
+                    </div>
                 </div>
             </div>
         </div>

@@ -8,18 +8,8 @@
 }
 .experience-container {
     background-color: black;
-    padding: 0 70px 0 70px;
-    width: 100%;
+    padding: 50px 70px 70px 70px;
 }
-.grid h3 {
-    color: white;
-}
-.grid {
-    display:grid;
-    grid-template-columns: 50% 25% 25%;
-    grid-template-rows: 50% 50%;
-    grid-gap: 10px;
-} 
 .experience-button {
     padding-top: 20px;
 }
@@ -31,5 +21,30 @@
     font-weight: 500;
     font-size: 15px;
     color: white;
-    
 }
+.grid h3 {
+    color: white;
+}
+.grid {
+    display:grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-rows: 50% 50%;
+    grid-gap: 10px;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    width: 100%;
+} 
+.grid img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-top: 1px solid transparent;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.grid-text {
+    background-color:#222222!important;
+    border-radius: 20px 20px 20px 20px !important;
+    width: 100%
+}
+
