@@ -1,0 +1,16 @@
+.Footer-container{
+    padding: 0 70px 0 70px;
+}
+.Footer-flex-container {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+}
+.Copyright-right-flex img {
+    width: 20px;
+    height: 20px;
+}
+.Copyright-flex {
+    display: flex;
+    justify-content: space-between;
+}
