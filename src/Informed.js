@@ -9,8 +9,8 @@ const Informed = (props) => {
             </div>
             <div className="info-four-list">
                 <ul>
-                    <li>For guests</li> <br/>
-                    <li>Updates for travel<p> What you should know</p></li>
+                    <li>For Guests</li> <br/>
+                    <li>Update for travel<p> What you should know</p></li>
                     <li>Cancellation options<p>Learn what’s covered</p></li>
                     <li> Help Center<p>Get support</p></li>
                 </ul>

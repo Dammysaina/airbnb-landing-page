@@ -7,8 +7,9 @@ const Experience = (props) =>{
             <div className="experience-explore">
             <div className= "experience-explore-text">
                 <h1>Introducing Online Experience</h1>
-                <h4>Duis esse labore reprehenderit cillum velit cillum nulla id id labore.
-                    Duis esse labore reprehenderit cillum velit cillum nulla id id labore.
+                <h4>
+                    Now you can meet people all over the world while trying something new. 
+                    Join live, interactive video sessions led by expert hosts—all without leaving home.
                 </h4>
             </div>
             <div className="experience-button">
@@ -17,14 +18,14 @@ const Experience = (props) =>{
             </div>
             <div className="grid">
                 <div className="card1 grid-text">
-                <img src= {`/images/lamb.jpg`}/>
+                <img src= {`/images/lamb.jpg`} alt=""/>
                 <div className="grid-text">
                     <h3>Mix secret sangria with Pedro from&nbsp;Lisbon
                     </h3>
                 </div>
                 </div>
                 <div className="card2 grid-text">
-                    <img src= {`/images/sheep.jpg`}/>
+                    <img src= {`/images/sheep.jpg`} alt=""/>
                     <div className="grid-text">
                         <h3>
                             Stretch. Breathe. Relax. Yoga class with&nbsp;friends.
@@ -32,7 +33,7 @@ const Experience = (props) =>{
                     </div>
                 </div>
                 <div className="card3 grid-text">
-                    <img src={`/images/eating.jpg`}/>
+                    <img src={`/images/eating.jpg`} alt=""/>
                     <div className="grid-text">
                         <h3>
                             Meditate to music with Janice from&nbsp;Amsterdam
@@ -40,7 +41,7 @@ const Experience = (props) =>{
                     </div>
                 </div>
                 <div className="card4 grid-text">
-                    <img src= {`/images/sheep.jpg`}/>
+                    <img src= {`/images/sheep.jpg`} alt=""/>
                     <div className ="grid-text">
                         <h3>
                             Support African penguins by drawing with&nbsp;Jon
