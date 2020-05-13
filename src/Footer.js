@@ -6,7 +6,7 @@ const Footer = (props) => {
         <div className="Footer-container">
             <div className="Footer-flex-container">
             <div>
-                <h3>About</h3>
+                <h4>About</h4>
                 <p>Diversity & Belonging</p>
                 <p>Accessibility</p>
                 <p>Trust & Safety</p>
@@ -45,15 +45,15 @@ const Footer = (props) => {
                 <span>.Sitemap</span>
                 </div>
                 <div className="Copyright-right-flex">
-                    <div >
+                    <div className="Copyright-right-flex-country">
                         <span>English(US)</span>
                         <span>USD</span>
                     </div>
-                    
-                    <span><img src={`/images/facebook-f-brands.svg`}/></span>
-                    <span><img src={`/images/twitter-brands.svg`}/></span>
-                    <span><img src={`/images/instagram-square-brands.svg`}/></span>
-                    
+                    <div className="Copyright-right-flex-socialmedia">
+                        <span><img src={`/images/facebook-f-brands.svg`}/></span>
+                        <span><img src={`/images/twitter-brands.svg`}/></span>
+                        <span><img src={`/images/instagram-square-brands.svg`}/></span>
+                    </div>
                 </div>
             </div>
         </div>

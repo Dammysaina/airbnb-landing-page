@@ -6,6 +6,16 @@
     justify-content: space-between;
     padding-left: 20px;
 }
+.Footer-flex-container p {
+    font-weight: 250;
+}
+.Footer-flex-container h6 {
+    font-weight: 400;
+}
+.Copyright-right-flex {
+    display: flex;
+    justify-content: space-between;
+}
 .Copyright-right-flex img {
     width: 20px;
     height: 20px;
@@ -13,4 +23,7 @@
 .Copyright-flex {
     display: flex;
     justify-content: space-between;
+}
+.Copyright-right-flex-country span {
+    padding: 0 15px 0 15px;
 }
