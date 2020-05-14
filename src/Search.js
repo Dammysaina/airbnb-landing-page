@@ -23,6 +23,7 @@ const Search = (props) => {
                     <label>LOCATION</label>
                     <input placeholder="Where are you going?" type="text" />
                     </div>
+                    <button> <span><img src={`/images/search-solid.svg`}/></span>Search </button>
                 </form>
             </div>
         </div>
