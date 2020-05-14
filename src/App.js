@@ -9,12 +9,18 @@ import './App.css';
 
 
 export default class App extends React.Component {
-
+  state = {
+    location: "LOCATION",
+    checkin : "CHECK IN / CHECK OUT",
+    guest : "GUESTS",
+    dates: "Add dates",
+    addguests: "Add Guests"
+  }
 render () {
   return(
     <div className= "contain">
-      <Header/>
-      <Stay />
+      <Header />
+      <Stay labels={this.state} />
       <Experience />
       <Hero />
       <Informed />

@@ -5,7 +5,7 @@ import './Stay.css'
 const Stay = (props) =>{
     return(
         <div className= "stay-container">
-            <Search/>
+            <Search labels={props.labels} />
             <h2>We may be apart, but we’ll get through <br/> this together.</h2>
             <div className="picture">
                 <div className="card">

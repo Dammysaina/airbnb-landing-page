@@ -12,16 +12,16 @@ const Search = (props) => {
             <div className="search-form-div">
                 <form className="search-form">
                     <div>
-                    <label>LOCATION</label>
+                    <label>{props.labels.location}</label>
                     <input placeholder="Where are you going?" type="text" />
                     </div>
                     <div>
-                    <label>LOCATION</label>
-                    <input placeholder="Where are you going?" type="text" />
+                    <label>{props.labels.checkin}</label>
+                    <input placeholder={props.labels.dates} type="text" />
                     </div>
                     <div>
-                    <label>LOCATION</label>
-                    <input placeholder="Where are you going?" type="text" />
+                    <label>{props.labels.guest}</label>
+                    <input placeholder={props.labels.addguests} type="text" />
                     </div>
                     <button> <span><img src={`/images/search-solid.svg`}/></span>Search </button>
                 </form>

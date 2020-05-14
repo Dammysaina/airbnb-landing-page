@@ -36,7 +36,7 @@
    
     /* margin: 20px 0 0 0; */
 }
-.search-form div:not(:last-child) {
+.search-form div:not(:nth-child(3)) {
     border-right: 1px solid lightgray;
 }
 .search-form div:hover {
@@ -53,11 +53,14 @@
 }
 .search-form button {
     display: flex;
+    font-size: 11px;
+    align-items: center;
 }
 .search-form img {
-    width: 20px;
-    height: 20px;
-    color: white;
+    width: 10px;
+    height: 10px;
+    margin-right: 5px;
+    /* color: white; */
 }
 .search-form button {
     border: none;
