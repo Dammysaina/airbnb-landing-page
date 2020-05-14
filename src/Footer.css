@@ -1,10 +1,11 @@
 .Footer-container{
-    padding: 0 70px 0 70px;
+    padding: 0 70px 30px 70px;
 }
 .Footer-flex-container {
     display: flex;
     justify-content: space-between;
-    padding-left: 20px;
+    /* padding-left: 20px; */
+    border-bottom:1px solid rgb(206, 206, 206);
 }
 .Footer-flex-container p {
     font-weight: 250;
@@ -23,7 +24,14 @@
 .Copyright-flex {
     display: flex;
     justify-content: space-between;
+    padding-top: 20px;
+}
+.Copyright-left-flex span:not(:last-child) {
+    margin-right: 5px;
 }
 .Copyright-right-flex-country span {
+    padding: 0 15px 0 15px;
+}
+.Copyright-right-flex-socialmedia span {
     padding: 0 15px 0 15px;
 }

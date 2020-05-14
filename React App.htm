@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<!-- saved from url=(0022)http://localhost:3000/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <link rel="stylesheet" href="./React App_files/font-awesome.min.css">
+    <link rel="icon" href="http://localhost:3000/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#000000">
+    <meta name="description" content="Web site created using create-react-app">
+    <link rel="apple-touch-icon" href="http://localhost:3000/logo192.png">
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="http://localhost:3000/manifest.json">
+    <!--
+      Notice the use of  in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <title>React App</title>
+  <style type="text/css">body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+html,body {
+  overflow-x: hidden;
+}
+</style><style type="text/css">.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 70px 0 70px; 
+}
+.container ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    
+}
+.container li {
+    margin-right: 10px;
+    border: 1px solid transparent;
+    border-radius: 15px;
+    padding: 10px 10px 10px 10px;
+}
+.container li:hover{
+    background-color: gray;
+   
+}
+button {
+    border: 1px solid grey;
+    border-radius: 20px;
+    background-color: white;
+    padding: 10px 10px 5px 10px;
+    font-weight: 500;
+    font-size: 15px;
+    
+}
+button:hover {
+    box-shadow: -1px 6px 15px -6px rgba(0, 0, 0, 0.4);
+}
+.logo {
+    width: 150px;
+    padding-top: 15px;
+}</style><style type="text/css">.search-filter {
+    display: flex;
+    /* justify-content: space-between; */
+}
+.search-filter p {
+    padding-right: 20px;
+}
+.search-filter span {
+    background-color: red;
+    color: white;
+    margin-left: 10px;
+    border-radius: 4px;
+    padding: 2px;
+    font-size: 15px;
+}
+.search-filter p:hover {
+    color: lightslategray
+}
+.search-form {
+    display: flex;
+}
+.search-form div {
+    border-radius: 10px;
+    padding: 10px;
+}
+.search-form div:hover {
+    border: 2px solid darkslategray;
+}</style><style type="text/css">.stay-container {
+    padding: 0 70px 0 70px; 
+}
+h2 {
+    color: red;
+    font-size: 35px;
+    font-weight: 250;
+}
+.picture {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 35px;
+}
+/* .picture img {
+    width: 400px;
+} */
+.card {
+    width: 350px;
+    height: 350px;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    box-shadow: -1px 10px 15px -6px rgba(0, 0, 0, 0.4);;
+    padding-bottom: 15px;
+}
+.card img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-top: 1px solid transparent;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.card-text {
+    padding-left: 15px;
+}
+.card-text h2{
+    font-weight: 500;
+}
+.card-text h4 {
+    font-weight: 200;
+    /* padding-bottom: 50px; */
+}</style><style type="text/css">.experience-explore {
+    display: flex;
+    justify-content: space-between;
+}
+.experience-explore-text {
+    width: 560px;
+    color: white;
+}
+.experience-container {
+    background-color: black;
+    padding: 50px 70px 70px 70px;
+}
+.experience-button {
+    padding-top: 20px;
+}
+.experience-button button {
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: black;
+    padding: 7px 15px 7px 15px;
+    font-weight: 500;
+    font-size: 15px;
+    color: white;
+}
+.grid {
+    display:grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-rows: 50% 50%;
+    grid-gap: 10px;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    width: 100%;
+    color: white;
+} 
+.grid img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-top: 1px solid transparent;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.grid-text {
+    background-color:#222222!important;
+    border-radius: 20px 20px 20px 20px !important;
+    width: 100%
+}
+.grid h4 {
+    font-weight: 200;
+}
+.grid h3 {
+    /* font-weight: 250; */
+    font-size: 15px;
+    padding-left: 15px;
+}
+.card4{
+    grid-column: 2/4;
+} 
+.card1 {
+    grid-row: 1/3;
+    height: 100%;
+}
+.card1 img {
+    height: 577px;
+}</style><style type="text/css">.hero {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 70px 50px 70px; 
+}
+.frontline {
+    width: 850px;
+}
+.frontline h3 {
+    font-weight: 300;
+    padding-left: 20px;
+}
+.host {
+    width: 700px;
+    padding-right: 20px;
+}
+button {
+    border: 1px solid grey;
+    border-radius: 10px;
+    background-color: white;
+    padding: 7px 15px 7px 15px;
+}</style><style type="text/css">.info {
+    background-color: wheat;
+    padding: 50px 70px 50px 70px;
+}
+.stay {
+    font-weight: 500;
+    /* padding: 0px 70px 0px 70px; */
+}
+.info-four-list {
+    display: flex;
+    justify-content: space-between;
+}
+.info-four-list h3 {
+    font-weight: 450;
+}
+.info-four-list ul {
+    padding: 0;
+}</style><style type="text/css">.Footer-container{
+    padding: 0 70px 30px 70px;
+}
+.Footer-flex-container {
+    display: flex;
+    justify-content: space-between;
+    /* padding-left: 20px; */
+    border-bottom:1px solid rgb(206, 206, 206);
+}
+.Footer-flex-container p {
+    font-weight: 250;
+}
+.Footer-flex-container h6 {
+    font-weight: 400;
+}
+.Copyright-right-flex {
+    display: flex;
+    justify-content: space-between;
+}
+.Copyright-right-flex img {
+    width: 20px;
+    height: 20px;
+}
+.Copyright-flex {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+.Copyright-left-flex span:not(:last-child) {
+    margin-right: 5px;
+}
+.Copyright-right-flex-country span {
+    padding: 0 15px 0 15px;
+}
+.Copyright-right-flex-socialmedia span {
+    padding: 0 15px 0 15px;
+}</style><style type="text/css">.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.contain {
+  /* padding: 0 70px 0 70px; */
+  width: 100%;
+}</style><script charset="utf-8" src="./React App_files/main.4295bdfa3d876cd00232.hot-update.js"></script><script charset="utf-8" src="./React App_files/main.68dbc4b4217e1b692ee4.hot-update.js"></script><script charset="utf-8" src="./React App_files/main.a01989d92c17fd22c080.hot-update.js"></script><script charset="utf-8" src="./React App_files/main.7a856ca753d891f4b908.hot-update.js"></script><script charset="utf-8" src="./React App_files/main.31c1da54a762bb844145.hot-update.js"></script><script charset="utf-8" src="./React App_files/main.7f377973d2c1b4073e52.hot-update.js"></script><script charset="utf-8" src="./React App_files/main.4845a2cb7b33b0a69b77.hot-update.js"></script><script charset="utf-8" src="./React App_files/main.254c9b594d84be6bc3da.hot-update.js"></script><script charset="utf-8" src="./React App_files/main.33088536f07cb268e49d.hot-update.js"></script><script charset="utf-8" src="./React App_files/main.db352a4c02759e8607fa.hot-update.js"></script><script charset="utf-8" src="./React App_files/main.a7843568dd14f2b377f6.hot-update.js"></script><script charset="utf-8" src="./React App_files/main.fe4709a127a7bc13cb8e.hot-update.js"></script><script charset="utf-8" src="./React App_files/main.7a9231066faea9f07e5c.hot-update.js"></script><script charset="utf-8" src="./React App_files/main.d8ff273f68cd9bf68e3a.hot-update.js"></script><script charset="utf-8" src="./React App_files/main.631165629351f62eed75.hot-update.js"></script><script charset="utf-8" src="./React App_files/main.bd9c433638ab6c7a0cc9.hot-update.js"></script></head>
+  <body cz-shortcut-listen="true">
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"><div class="contain"><div class="container"><div><img class="logo" src="./React App_files/logo.png" alt=""></div><div><ul><li>Host a home</li><li>Host an experience</li><li>Help</li><li>Log in</li><button>Sign up</button></ul></div></div><div class="stay-container"><div class="search-container"><div class="search-filter"><p>Places to stay</p><p>Monthly Stays </p><p>Experiences</p><p>Online Experiences<span class="new">New</span></p></div><div><form class="search-form"><div><label>LOCATION</label><input placeholder="Where are you going?" type="text"></div><div><label>LOCATION</label><input placeholder="Where are you going?" type="text"></div><div><label>LOCATION</label><input placeholder="Where are you going?" type="text"></div></form></div></div><h2>We may be apart, but we’ll get through <br> this together.</h2><div class="picture"><div class="card"><img src="./React App_files/lamb.jpg" alt=""><div class="card-text"><h3>Online Experiences</h3><h4>Unique activities we can do together, led by world of hosts.</h4></div></div><div class="card"><img src="./React App_files/eating.jpg" alt=""><div class="card-text"><h3>Monthly Stay</h3><h4>Make airbnb your home, for stays of a month or longer.</h4></div></div><div class="card"><img src="./React App_files/sheep.jpg" alt=""><div class="card-text"><h3>Frontline Stay</h3><h4>Find or provide accomodations for covid-19 responders.</h4></div></div></div></div><div class="experience-container"><div class="experience-explore"><div class="experience-explore-text"><h1>Introducing Online Experience</h1><h4>Now you can meet people all over the world while trying something new. Join live, interactive video sessions led by expert hosts—all without leaving home.</h4></div><div class="experience-button"><button>Explore all</button></div></div><div class="grid"><div class="card1 grid-text"><img src="./React App_files/lamb.jpg" alt=""><div class="grid-text"><h3>Mix secret sangria with Pedro from&nbsp;Lisbon</h3></div></div><div class="card2 grid-text"><img src="./React App_files/sheep.jpg" alt=""><div class="grid-text"><h3>Stretch. Breathe. Relax. Yoga class with&nbsp;friends.</h3></div></div><div class="card3 grid-text"><img src="./React App_files/eating.jpg" alt=""><div class="grid-text"><h3>Meditate to music with Janice from&nbsp;Amsterdam</h3></div></div><div class="card4 grid-text"><img src="./React App_files/sheep.jpg" alt=""><div class="grid-text"><h3>Support African penguins by drawing with&nbsp;Jon</h3></div></div></div></div><div class="hero"><div class="host"><h1>Host a hero: help us house frontline responders around the world</h1><button>Get involved</button></div><div class="frontline"><h3>With frontline stays, Airbnb is partnering with our hosts to connect 100,000 healthcare providers, relief workers, and first responders with places to stay that allow them to be close to their patients - and safely distanced from their own families.</h3></div></div><div class="info"><div class="stay"><h3>Stay Informed</h3></div><div class="info-four-list"><div><h4>For Guests</h4><p>Updates for travel</p><p>What you should know</p><p>Cancellation options</p><p>Learn what’s covered</p><p>Help Center</p><p>Get support</p></div><div><h4>For hosts</h4><p>Message from Brian Chesky</p><p>Hear from our CEO</p><p>Resources for hosting</p><p>What’s impacted by COVID-19</p><p>Providing frontline stays</p><p>Learn how to help</p></div><div><h4>For COVID-19 responders</h4><p>Frontline stays</p><p>Learn about our program</p><p>Sign up</p><p>Check for housing options</p><p>Make a donation</p><p>Support nonprofit organizations</p></div><div><h4>More</h4><p>Airbnb Newsroom</p><p>Latest announcements</p><p>World Health Organization</p><p>Education and updates</p><p></p><p></p></div></div></div><div class="Footer-container"><div class="Footer-flex-container"><div><h4>About</h4><p>Diversity &amp; Belonging</p><p>Accessibility</p><p>Trust &amp; Safety</p><p>Airbnb Citizen</p><p>Newsroom</p></div><div><h4>Community</h4><p>Diversity &amp; Belonging</p><p>Accessibility</p><p>Trust &amp; Safety</p><p>Airbnb Citizen</p><p>Newsroom</p></div><div><h4>Host</h4><p>Diversity &amp; Belonging</p><p>Accessibility</p><p>Trust &amp; Safety</p><p>Airbnb Citizen</p><p>Newsroom</p><p>Accessibility</p></div><div><h4>Support</h4><p>Diversity &amp; Belonging</p><p>Accessibility</p></div></div><div class="Copyright-flex"><div class="Copyright-left-flex"><span>© 2020 Airbnb, Inc. All rights reserved</span><span>.Privacy</span><span>.Terms</span><span>.Sitemap</span></div><div class="Copyright-right-flex"><div class="Copyright-right-flex-country"><span>English(US)</span><span>USD</span></div><div class="Copyright-right-flex-socialmedia"><span><img src="./React App_files/facebook-f-brands.svg"></span><span><img src="./React App_files/twitter-brands.svg"></span><span><img src="./React App_files/instagram-square-brands.svg"></span></div></div></div></div></div></div>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+  <script src="./React App_files/bundle.js"></script><script src="./React App_files/0.chunk.js"></script><script src="./React App_files/main.chunk.js"></script><script src="./React App_files/main.dee7e19b588e869a88aa.hot-update.js"></script>
+
+</body></html>

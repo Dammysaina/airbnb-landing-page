@@ -6,7 +6,7 @@ const Footer = (props) => {
         <div className="Footer-container">
             <div className="Footer-flex-container">
             <div>
-                <h4>About</h4>
+                <h4 style={{color: props.myColor}}>About</h4>
                 <p>Diversity & Belonging</p>
                 <p>Accessibility</p>
                 <p>Trust & Safety</p>
@@ -14,7 +14,7 @@ const Footer = (props) => {
                 <p>Newsroom</p>
             </div>
             <div>
-                <h3>Community</h3>
+                <h4>Community</h4>
                 <p>Diversity & Belonging</p>
                 <p>Accessibility</p>
                 <p>Trust & Safety</p>
@@ -22,7 +22,7 @@ const Footer = (props) => {
                 <p>Newsroom</p>
             </div>
                 <div>
-                    <h3>Host</h3>
+                    <h4>Host</h4>
                     <p>Diversity & Belonging</p>
                     <p>Accessibility</p>
                     <p>Trust & Safety</p>
@@ -31,12 +31,12 @@ const Footer = (props) => {
                     <p>Accessibility</p>
                 </div>
                 <div>
-                    <h3>Support</h3>
+                    <h4>Support</h4>
                     <p>Diversity & Belonging</p>
                     <p>Accessibility</p>
                 </div>
             </div>
-            <hr/>
+            {/* <hr/> */}
             <div className="Copyright-flex">
                 <div className="Copyright-left-flex">
                 <span>© 2020 Airbnb, Inc. All rights reserved</span>

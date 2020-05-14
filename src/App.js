@@ -8,7 +8,9 @@ import Footer from './Footer.js';
 import './App.css';
 
 
-const App = (props) => {
+export default class App extends React.Component {
+
+render () {
   return(
     <div className= "contain">
       <Header/>
@@ -20,7 +22,7 @@ const App = (props) => {
     </div>
   )
 };
+  
+};
 
 
-
-export default App;

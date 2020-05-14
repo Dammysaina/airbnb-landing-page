@@ -1,9 +1,11 @@
 import React from 'react';
+import Search from './Search';
 import './Stay.css'
 
 const Stay = (props) =>{
     return(
         <div className= "stay-container">
+            <Search/>
             <h2>We may be apart, but we’ll get through <br/> this together.</h2>
             <div className="picture">
                 <div className="card">
