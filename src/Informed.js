@@ -10,39 +10,38 @@ const Informed = (props) => {
             <div className="info-four-list">
                 <div>
                     <h4>For Guests</h4>
-                    <p>Updates for travel</p>
+                    <h3>Updates for travel</h3>
                     <p>What you should know</p>
-                    <p>Cancellation options</p>
+                    <h3>Cancellation options</h3>
                     <p>Learn what’s covered</p>
-                    <p>Help Center</p>
+                    <h3>Help Center</h3>
                     <p>Get support</p>
                 </div>
                 <div>
                     <h4>For hosts</h4>
-                    <p>Message from Brian Chesky</p>
+                    <h3>Message from Brian Chesky</h3>
                     <p>Hear from our CEO</p>
-                    <p>Resources for hosting</p>
+                    <h3>Resources for hosting</h3>
                     <p>What’s impacted by COVID-19</p>
-                    <p>Providing frontline stays</p>
+                    <h3>Providing frontline stays</h3>
                     <p>Learn how to help</p>
                 </div>
                 <div>
                     <h4>For COVID-19 responders</h4>
-                    <p>Frontline stays</p>
+                    <h3>Frontline stays</h3>
                     <p>Learn about our program</p>
-                    <p>Sign up</p>
+                    <h3>Sign up</h3>
                     <p>Check for housing options</p>
-                    <p>Make a donation</p>
+                    <h3>Make a donation</h3>
                     <p>Support nonprofit organizations</p>
                 </div>
                 <div>
                     <h4>More</h4>
-                    <p>Airbnb Newsroom</p>
+                    <h3>Airbnb Newsroom</h3>
                     <p>Latest announcements</p>
-                    <p>World Health Organization</p>
+                    <h3>World Health Organization</h3>
                     <p>Education and updates</p>
-                    <p></p>
-                    <p></p>
+                    
                 </div>
             </div>
         </div>

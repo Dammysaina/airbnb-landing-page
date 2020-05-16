@@ -23,7 +23,9 @@ const Search = (props) => {
                     <label>{props.labels.guest}</label>
                     <input placeholder={props.labels.addguests} type="text" />
                     </div>
-                    <button> <span><img src={`/images/search-solid.svg`}/></span>Search </button>
+                        <button> <span><img src={`/images/search-solid.svg`}/></span>Search </button>
+            
+                    
                 </form>
             </div>
         </div>

@@ -1,5 +1,5 @@
 .info {
-    background-color: wheat;
+    background-color: rgb(199, 200, 201);
     padding: 50px 70px 50px 70px;
 }
 .stay {
@@ -9,10 +9,27 @@
 .info-four-list {
     display: flex;
     justify-content: space-between;
+    margin-right: 5px;
+}
+.info-four-list h4 {
+    font-weight: 350;
+    padding-bottom: 0 15px;
+    border-bottom: 1px solid slategray;
+    
 }
 .info-four-list h3 {
-    font-weight: 450;
+    font-weight: 700;
+    font-size: 15px;
+    margin-bottom: 0;
+    /* padding-top: 15px; */
 }
-.info-four-list ul {
-    padding: 0;
+.info-four-list p:not(:last-child) {
+    border-bottom: 1px solid slategray;
+    padding-bottom: 15px;
+    /* margin:0 */
+}
+.info-four-list p {
+    margin:0;
+    font-size: 15px;
+    font-weight: 200;
 }

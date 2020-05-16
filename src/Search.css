@@ -40,7 +40,8 @@
     border-right: 1px solid lightgray;
 }
 .search-form div:hover {
-    border: 2px solid darkslategray;
+    border: 2px solid slategray;
+    border-radius: 10px;
 }
 
 .search-form div label {
@@ -66,6 +67,8 @@
     border: none;
     background-color: red;
     color: white;
-    height: 50px;
-    margin-top: 10px;
+    height: 40px;
+    margin: 15px 10px 10px 10px ;
+    padding: 0 20px 0 20px;
+    outline: 0;
 }
