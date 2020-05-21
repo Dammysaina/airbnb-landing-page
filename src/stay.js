@@ -5,7 +5,7 @@ import './Stay.css'
 const Stay = (props) =>{
     return(
         <div className= "stay-container">
-            <Search labels={props.labels} />
+            <Search  />
             <h2>We may be apart, but we’ll get through <br/> this together.</h2>
             <div className="picture">
                 <div className="card">
@@ -14,6 +14,7 @@ const Stay = (props) =>{
                         <h3>Online Experiences</h3>
                         <h4>Unique activities we can do together, led by world of hosts.</h4>
                     </div>
+                   
                 </div>
                 <div className="card">
                     <img src={'/images/eating.jpg'} alt=""/>

@@ -1,30 +1,25 @@
 import React from 'react';
+// import {Switch, Route} from 'react-router-dom';
 import Header from './Header.js';
-import Stay from './stay.js';
-import Experience from './Experience.js';
-import Hero from './Hero.js';
-import Informed from './Informed.js';
+import Home from './Home';
 import Footer from './Footer.js';
 import './App.css';
+import Experience from './Experience.js';
 
 
 export default class App extends React.Component {
-  state = {
-    location: "LOCATION",
-    checkin : "CHECK IN / CHECK OUT",
-    guest : "GUESTS",
-    dates: "Add dates",
-    addguests: "Add Guests"
-  }
+  
 render () {
   return(
     <div className= "contain">
       <Header />
-      <Stay labels={this.state} />
-      <Experience />
-      <Hero />
-      <Informed />
+      {/* <Switch>
+        <Route path="/" component={Home} />
+        
+      </Switch> */}
+      <Home />
       <Footer />
+
     </div>
   )
 };

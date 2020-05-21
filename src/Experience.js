@@ -7,13 +7,13 @@ const Experience = (props) =>{
             <div className="experience-explore">
             <div className= "experience-explore-text">
                 <h1>Introducing Online Experience</h1>
-                <h4>
+                <h4 href="header.js">
                     Now you can meet people all over the world while trying something new. 
                     Join live, interactive video sessions led by expert hosts—all without leaving home.
                 </h4>
             </div>
             <div className="experience-button">
-                <button>Explore all</button>
+                <button href="Header.js">Explore all</button>
             </div>
             </div>
             <div className="grid">
