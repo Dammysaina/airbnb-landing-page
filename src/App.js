@@ -4,7 +4,7 @@ import Header from './Header.js';
 import Home from './Home';
 import Footer from './Footer.js';
 import './App.css';
-import Experience from './Experience.js';
+// import Experience from './Experience.js';
 
 
 export default class App extends React.Component {

@@ -56,6 +56,13 @@
     display: flex;
     font-size: 11px;
     align-items: center;
+    border: none;
+    background-color: red;
+    color: white;
+    height: 40px;
+    margin: 15px 10px 10px 10px ;
+    padding: 0 20px 0 20px;
+    outline: 0;
 }
 .search-form img {
     width: 10px;
@@ -64,11 +71,12 @@
     /* color: white; */
 }
 .search-form button {
-    border: none;
+    /* border: none;
     background-color: red;
     color: white;
     height: 40px;
     margin: 15px 10px 10px 10px ;
     padding: 0 20px 0 20px;
     outline: 0;
+ */
 }
